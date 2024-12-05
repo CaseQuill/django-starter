@@ -1,0 +1,9 @@
+# Create a .gitignore file
+touch .gitignore
+
+# Add the following lines to .gitignore
+env/
+__pycache__/
+*.py[cod]
+*.sqlite3
+

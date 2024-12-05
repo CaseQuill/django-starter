@@ -1,5 +1,5 @@
 
-# Django Starter Project with Poetry
+# Django Starter Code
 
 ## Setup Instructions
 
@@ -106,40 +106,7 @@ python manage.py runserver
 
 - Ensure you have **Python 3.6** or higher installed.
 - If you encounter any issues, please check your Python and Poetry installations.
-- For any questions or issues, feel free to contact us at [email@example.com](mailto:email@example.com).
-
----
-
-## Project Structure
-
-The basic structure of the project is as follows:
-
-```
-myproject/
-├── core/
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── migrations/
-│   │   └── __init__.py
-│   ├── models.py
-│   ├── templates/
-│   │   └── core/
-│   │       └── item_list.html
-│   ├── tests.py
-│   ├── urls.py
-│   └── views.py
-├── myproject/
-│   ├── __init__.py
-│   ├── asgi.py
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-├── pyproject.toml
-├── poetry.lock
-├── manage.py
-└── README.md
-```
+- For any questions or issues, feel free to contact us at [ben@finchlegal.com](mailto:ben@finchlegal.com).
 
 ---
 
@@ -153,32 +120,3 @@ This starter project includes:
 - Templates configured to render the `item_list.html`.
 - URLs configured to route to the `item_list` view.
 - Instructions to help you get started quickly.
-
----
-
-## How to Extend the Project
-
-Feel free to extend this project by:
-
-- Adding new models and fields.
-- Creating additional views and templates.
-- Implementing forms and user authentication.
-- Connecting to a real database (e.g., PostgreSQL) if needed.
-- Adding RESTful endpoints using Django REST Framework.
-
----
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-## Contact
-
-If you have any questions or need assistance, please contact:
-
-- **Email**: [email@example.com](mailto:email@example.com)
-- **GitHub**: [https://github.com/yourusername/myproject](https://github.com/yourusername/myproject)
-
-Happy coding!
