@@ -6,8 +6,8 @@
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/myproject.git
-   cd myproject
+   git clone https://github.com/CaseQuill/django-starter.git
+   cd django-starter
    ```
 
 2. **Install Poetry**
