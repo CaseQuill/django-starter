@@ -31,9 +31,10 @@
    - Create a virtual environment (if one doesn't exist).
    - Install all dependencies specified in `pyproject.toml`.
 
-4. **Apply Migrations**
+4. **Make and Apply Migrations**
 
    ```bash
+   poetry run python manage.py makemigrations
    poetry run python manage.py migrate
    ```
 
